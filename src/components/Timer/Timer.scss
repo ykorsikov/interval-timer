@@ -1,0 +1,25 @@
+.timer {
+  .timer-clocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 56px;
+      line-height: 1;
+      font-weight: bold;
+    }
+  }
+
+  .timer-btn-panel{
+    margin-top: 48px;
+
+    .btn{
+      margin-right: 12px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
